@@ -1,0 +1,22 @@
+{
+  "name": "project-hearts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "DEBUG=Hearts:* nodemon --ignore 'game_accounting/*' --ignore 'black_list/*' --experimental-worker server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.1.0",
+    "colors": "^1.4.0",
+    "crypto": "^1.0.1",
+    "fs": "0.0.1-security",
+    "net": "^1.0.2",
+    "nodemon": "^1.19.4",
+    "python-shell": "^1.0.8",
+    "sha256": "^0.2.0"
+  },
+  "devDependencies": {}
+}
